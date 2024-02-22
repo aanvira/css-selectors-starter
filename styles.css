@@ -867,7 +867,7 @@ tfoot{
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-{
+#borders .dashed div{
     width: 150px;
     height: 150px;
     border: 6px double var(--dv-mint);
@@ -879,7 +879,7 @@ tfoot{
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-{
+#borders .dashed div div{
     width: 100px;
     height: 100px;
     border: 6px inset var(--dv-lt-blue);
@@ -894,7 +894,7 @@ tfoot{
     select the pseudo-elements section using the ID selector
 */
 /* ----- */
-{
+#pseudo-els{
     position: relative;
 }
 
@@ -904,7 +904,7 @@ tfoot{
     select the div in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-{
+#pseudo-els div{
     width: 275px;
     height: 275px;
     margin: 56px auto 32px;
@@ -919,7 +919,7 @@ tfoot{
     select the div's before element in the pseudo-elements section using the ID, child/descendant, pseudo-element, and tag name selectors
 */
 /* ----- */
-{
+#pseudo-els div::before{
     content: "\2730";
     padding: 12px 24px;
     border-radius: 50%;
@@ -939,7 +939,7 @@ tfoot{
     select the image in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-{
+#pseudo-els img{
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -957,7 +957,7 @@ tfoot{
     select the footer element by tag name
 */
 /* ----- */
-{
+footer{
     margin: 2rem auto 0 auto;
     text-align: center;
 }
